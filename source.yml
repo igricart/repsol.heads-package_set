@@ -1,3 +1,9 @@
 name: repsol.heads
 
+version_control:
+    - drivers/gps_base:
+        github: rock-drivers/drivers-gps_base
+    - drivers/orogen/gps_base:
+        github: rock-drivers/drivers-orogen-gps_base
+
 
