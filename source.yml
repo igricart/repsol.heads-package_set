@@ -13,3 +13,8 @@ version_control:
     - simulation/orogen/.*:
         type: git
         url: 146.164.26.53:/opt/heads/Software/simulation-orogen-$PACKAGE_BASENAME
+    - bundles/.*:
+        type: git
+        url: 146.164.26.53:/opt/heads/Software/bundles-$PACKAGE_BASENAME
+    - simulation/gazebo_boat_control:
+        github: thirteenltda/simulation-gazebo_boat_control
