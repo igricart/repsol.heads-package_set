@@ -6,3 +6,6 @@ cmake_package 'simulation/gazebo_boat_control' do |pkg|
     pkg.env_add_path 'GAZEBO_PLUGIN_PATH', File.join(pkg.prefix, 'lib')
 end
 bundle_package 'bundles/heads'
+
+cmake_package 'drivers/gps_base'
+orogen_package 'drivers/orogen/gps_base'
