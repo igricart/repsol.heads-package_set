@@ -1,9 +1,15 @@
 name: repsol.heads
 
 version_control:
-    - drivers/gps_base:
-        github: rock-drivers/drivers-gps_base
-    - drivers/orogen/gps_base:
-        github: rock-drivers/drivers-orogen-gps_base
-
-
+    - control/.*:
+        type: git
+        url: 146.164.26.53:/opt/heads/Software/control-$PACKAGE_BASENAME
+    - control/orogen/.*:
+        type: git
+        url: 146.164.26.53:/opt/heads/Software/control-orogen-$PACKAGE_BASENAME
+    - simulation/.*:
+        type: git
+        url: 146.164.26.53:/opt/heads/Software/simulation-$PACKAGE_BASENAME
+    - simulation/orogen/.*:
+        type: git
+        url: 146.164.26.53:/opt/heads/Software/simulation-orogen-$PACKAGE_BASENAME
