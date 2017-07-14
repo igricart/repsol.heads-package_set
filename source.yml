@@ -18,6 +18,8 @@ version_control:
         url: 146.164.26.53:/opt/heads/Software/bundles-$PACKAGE_BASENAME
     - simulation/gazebo_boat_control:
         github: thirteenltda/simulation-gazebo_boat_control
+    - drivers/.*:
+        github: thirteenltda/drivers-$PACKAGE_BASENAME
     - drivers/gps_base:
         github: rock-drivers/drivers-gps_base
     - drivers/orogen/gps_base:

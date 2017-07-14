@@ -9,3 +9,5 @@ bundle_package 'bundles/heads'
 
 cmake_package 'drivers/gps_base'
 orogen_package 'drivers/orogen/gps_base'
+
+cmake_package 'drivers/indra_heads_protocol'
