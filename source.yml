@@ -3,19 +3,19 @@ name: repsol.heads
 version_control:
     - control/.*:
         type: git
-        url: 146.164.26.53:/opt/heads/Software/control-$PACKAGE_BASENAME
+        url: git@gscar.coppe.ufrj.br:heads/control-$PACKAGE_BASENAME
     - control/orogen/.*:
         type: git
-        url: 146.164.26.53:/opt/heads/Software/control-orogen-$PACKAGE_BASENAME
+        url: git@gscar.coppe.ufrj.br:heads/control-orogen-$PACKAGE_BASENAME
     - simulation/.*:
         type: git
-        url: 146.164.26.53:/opt/heads/Software/simulation-$PACKAGE_BASENAME
+        url: git@gscar.coppe.ufrj.br:heads/simulation-$PACKAGE_BASENAME
     - simulation/orogen/.*:
         type: git
-        url: 146.164.26.53:/opt/heads/Software/simulation-orogen-$PACKAGE_BASENAME
+        url: git@gscar.coppe.ufrj.br:heads/simulation-orogen-$PACKAGE_BASENAME
     - bundles/.*:
         type: git
-        url: 146.164.26.53:/opt/heads/Software/bundles-$PACKAGE_BASENAME
+        url: git@gscar.coppe.ufrj.br:heads/bundles-$PACKAGE_BASENAME
     - simulation/gazebo_boat_control:
         github: thirteenltda/simulation-gazebo_boat_control
     - drivers/.*:
