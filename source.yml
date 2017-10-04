@@ -21,6 +21,13 @@ version_control:
     - drivers/.*:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
 
+    - drivers/imu_advanced_navigation_anpp:
+        github: rock-drivers/drivers-imu_advanced_navigation_anpp
+        branch: first_version
+    - drivers/orogen/imu_advanced_navigation_anpp:
+        github: rock-drivers/drivers-orogen-imu_advanced_navigation_anpp
+        branch: first_version
+
 overrides:
     - base/types:
         branch: define_spline_derive

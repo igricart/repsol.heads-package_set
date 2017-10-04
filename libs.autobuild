@@ -7,6 +7,9 @@ cmake_package 'simulation/gazebo_boat_control' do |pkg|
 end
 bundle_package 'bundles/heads'
 
+cmake_package 'drivers/imu_advanced_navigation_anpp'
+orogen_package 'drivers/orogen/imu_advanced_navigation_anpp'
+
 cmake_package 'drivers/indra_heads_protocol'
 
 # Note: this *adds* the package to repsol.heads
