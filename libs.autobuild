@@ -14,3 +14,7 @@ cmake_package 'drivers/indra_heads_protocol'
 
 # Note: this *adds* the package to repsol.heads
 metapackage 'repsol.heads', 'drivers/orogen/imu_advanced_navigation_anpp'
+metapackage 'repsol.heads.navbox', 'control/orogen/heads_control', 'drivers/orogen/imu_advanced_navigation_anpp',
+    'bundles/heads'
+
+
