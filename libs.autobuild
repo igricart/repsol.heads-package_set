@@ -6,9 +6,7 @@ cmake_package 'simulation/gazebo_boat_control' do |pkg|
     pkg.env_add_path 'GAZEBO_PLUGIN_PATH', File.join(pkg.prefix, 'lib')
 end
 bundle_package 'bundles/heads'
-
-cmake_package 'drivers/imu_advanced_navigation_anpp'
-orogen_package 'drivers/orogen/imu_advanced_navigation_anpp'
+import_package 'robots/ansible/heads'
 
 cmake_package 'drivers/indra_heads_protocol'
 

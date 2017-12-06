@@ -20,3 +20,5 @@ version_control:
         github: thirteenltda/simulation-gazebo_boat_control
     - drivers/.*:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
+    - robots/ansible/.*:
+        github: thirteenltda/robots-ansible-$PACKAGE_BASENAME
