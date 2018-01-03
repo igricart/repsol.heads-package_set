@@ -20,5 +20,13 @@ version_control:
         github: thirteenltda/simulation-gazebo_boat_control
     - drivers/.*:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
+    - drivers/orogen/.*:
+        github: thirteenltda/drivers-orogen-$PACKAGE_BASENAME
     - robots/ansible/.*:
         github: thirteenltda/robots-ansible-$PACKAGE_BASENAME
+
+    - drivers/imu_advanced_navigation_anpp:
+        github: rock-drivers/drivers-$PACKAGE_BASENAME
+    - drivers/orogen/imu_advanced_navigation_anpp:
+        github: rock-drivers/drivers-orogen-$PACKAGE_BASENAME
+    
