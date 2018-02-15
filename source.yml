@@ -24,6 +24,9 @@ version_control:
         github: thirteenltda/drivers-orogen-$PACKAGE_BASENAME
     - robots/ansible/.*:
         github: thirteenltda/robots-ansible-$PACKAGE_BASENAME
+        private: true
+    - robots/orogen/.*:
+        github: thirteenltda/robots-orogen-$PACKAGE_BASENAME
 
     - drivers/imu_advanced_navigation_anpp:
         github: rock-drivers/drivers-$PACKAGE_BASENAME

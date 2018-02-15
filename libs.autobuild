@@ -2,6 +2,7 @@ cmake_package 'control/heads_smac'
 orogen_package 'control/orogen/heads_control'
 cmake_package 'simulation/heads_simulation'
 orogen_package 'simulation/orogen/heads_simulation'
+orogen_package 'robots/orogen/heads_gazebo_deployments'
 cmake_package 'simulation/gazebo_boat_control' do |pkg|
     pkg.env_add_path 'GAZEBO_PLUGIN_PATH', File.join(pkg.prefix, 'lib')
 end
