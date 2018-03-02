@@ -22,6 +22,8 @@ version_control:
         github: thirteenltda/drivers-$PACKAGE_BASENAME
     - drivers/orogen/.*:
         github: thirteenltda/drivers-orogen-$PACKAGE_BASENAME
+    - drivers/canopen_master:
+        github: rock-drivers/drivers-$PACKAGE_BASENAME
     - robots/ansible/.*:
         github: thirteenltda/robots-ansible-$PACKAGE_BASENAME
         private: true
@@ -34,4 +36,5 @@ version_control:
         github: rock-drivers/drivers-orogen-$PACKAGE_BASENAME
     - tools/orogen-slave_scheduler:
         github: thirteenltda/tools-orogen-slave_scheduler
-    
+    - drivers/canbus:
+        branch: ftdi
