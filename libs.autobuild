@@ -9,9 +9,6 @@ end
 bundle_package 'bundles/heads'
 import_package 'robots/ansible/heads'
 
-cmake_package 'drivers/imu_advanced_navigation_anpp'
-orogen_package 'drivers/orogen/imu_advanced_navigation_anpp'
-
 orogen_package 'tools/orogen-slave_scheduler'
 
 cmake_package 'drivers/canopen_master'
