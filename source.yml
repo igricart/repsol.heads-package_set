@@ -2,20 +2,20 @@ name: repsol.heads
 
 version_control:
     - control/.*:
-        type: git
-        url: git@gscar.coppe.ufrj.br:heads/control-$PACKAGE_BASENAME
+        lead: heads/control-$PACKAGE_BASENAME
+        private: true
     - control/orogen/.*:
-        type: git
-        url: git@gscar.coppe.ufrj.br:heads/control-orogen-$PACKAGE_BASENAME
+        lead: heads/control-orogen-$PACKAGE_BASENAME
+        private: true
     - simulation/.*:
-        type: git
-        url: git@gscar.coppe.ufrj.br:heads/simulation-$PACKAGE_BASENAME
+        lead: heads/simulation-$PACKAGE_BASENAME
+        private: true
     - simulation/orogen/.*:
-        type: git
-        url: git@gscar.coppe.ufrj.br:heads/simulation-orogen-$PACKAGE_BASENAME
+        lead: heads/simulation-orogen-$PACKAGE_BASENAME
+        private: true
     - bundles/.*:
-        type: git
-        url: git@gscar.coppe.ufrj.br:heads/bundles-$PACKAGE_BASENAME
+        lead: heads/bundles-$PACKAGE_BASENAME
+        private: true
     - simulation/gazebo_boat_control:
         github: thirteenltda/simulation-gazebo_boat_control
     - drivers/.*:
