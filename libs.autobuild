@@ -13,8 +13,8 @@ cmake_package 'drivers/indra_heads_protocol'
 orogen_package 'drivers/orogen/indra_heads_protocol'
 
 # Note: this *adds* the package to repsol.heads
-metapackage 'repsol.heads', 'drivers/orogen/imu_advanced_navigation_anpp'
 metapackage 'repsol.heads.navbox', 'control/orogen/heads_control', 'drivers/orogen/imu_advanced_navigation_anpp',
-    'bundles/heads', 'drivers/orogen/linux_gpios'
+    'bundles/heads', 'drivers/orogen/linux_gpios', 'drivers/orogen/motors_elmo_ds402'
+metapackage 'repsol.heads', 'repsol.heads.navbox'
 
 
