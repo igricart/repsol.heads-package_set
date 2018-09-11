@@ -3,9 +3,11 @@ orogen_package 'control/orogen/heads_control'
 cmake_package 'simulation/heads_simulation'
 orogen_package 'simulation/orogen/heads_simulation'
 orogen_package 'robots/orogen/heads_gazebo_deployments'
+orogen_package 'robots/orogen/heads_live_deployments'
 cmake_package 'simulation/gazebo_boat_control' do |pkg|
     pkg.env_add_path 'GAZEBO_PLUGIN_PATH', File.join(pkg.prefix, 'lib')
 end
+remove_from_default 'simulation/gazebo_boat_control'
 bundle_package 'bundles/heads'
 import_package 'robots/ansible/heads'
 
@@ -14,7 +16,8 @@ orogen_package 'drivers/orogen/indra_heads_protocol'
 
 # Note: this *adds* the package to repsol.heads
 metapackage 'repsol.heads.navbox', 'control/orogen/heads_control', 'drivers/orogen/imu_advanced_navigation_anpp',
-    'bundles/heads', 'drivers/orogen/linux_gpios', 'drivers/orogen/motors_elmo_ds402'
+    'bundles/heads', 'drivers/orogen/linux_gpios', 'drivers/orogen/motors_elmo_ds402',
+    'robots/orogen/heads_live_deployments'
 metapackage 'repsol.heads', 'repsol.heads.navbox'
 
 
