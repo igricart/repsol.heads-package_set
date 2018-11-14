@@ -38,3 +38,5 @@ version_control:
         github: thirteenltda/tools-orogen-slave_scheduler
     - drivers/canbus:
         branch: ftdi
+    - control/orogen/joint_range_safety:
+        github: thirteenltda/control-orogen-joint_range_safety
