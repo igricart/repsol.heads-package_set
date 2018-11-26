@@ -21,4 +21,4 @@ metapackage 'repsol.heads.navbox', 'control/orogen/heads_control', 'drivers/orog
     'robots/orogen/heads_live_deployments', 'control/orogen/joint_range_safety'
 metapackage 'repsol.heads', 'repsol.heads.navbox'
 
-
+cmake_package 'drivers/udp_reader'
