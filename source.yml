@@ -41,5 +41,9 @@ version_control:
     - control/orogen/joint_range_safety:
         github: thirteenltda/control-orogen-joint_range_safety
 
+    - control/joint_tools:
+        github: rock-control/control-joint_tools
+    - control/orogen/joint_tools:
+        github: rock-control/control-orogen-joint_tools
     - drivers/udp_reader:
         github: jcmonteiro/udp-reader
