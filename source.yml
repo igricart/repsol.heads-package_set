@@ -47,3 +47,5 @@ version_control:
         github: rock-control/control-orogen-joint_tools
     - drivers/udp_reader:
         github: jcmonteiro/udp-reader
+    - control/linear_system:
+        github: jcmonteiro/linear-system

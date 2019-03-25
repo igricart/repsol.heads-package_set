@@ -25,3 +25,4 @@ metapackage 'repsol.heads.navbox', 'control/orogen/heads_control', 'drivers/orog
 metapackage 'repsol.heads', 'repsol.heads.navbox'
 
 cmake_package 'drivers/udp_reader'
+cmake_package 'control/linear_system'
